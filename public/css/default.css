@@ -1,0 +1,51 @@
+#toc_container {
+    display: table;
+    font-size: 95%;
+    margin-bottom: 1em;
+    width: 100%;
+}
+
+.main-content{
+  padding: 20px;
+}
+
+.content{
+  overflow-y: scroll;
+  height: 100vh;
+  width: 100% !important;
+  border: 1px solid #aaa;
+  padding-left: 0px;
+  display: inline-block;
+}
+
+.toc_title {
+    font-weight: 700;
+    font-size: 28px;
+    text-align: center;
+}
+
+#toc_container li, #toc_container ul, #toc_container ul li{
+    list-style: outside none none !important;
+}
+
+#toc_container li{
+    font-size: 18px;
+    padding: 10px 30px;
+    border-bottom: 2px solid #000;
+    width: 100%;
+}
+
+#toc_container li a{
+    text-decoration: none;
+    color: #8d8d8d;
+}
+
+
+.code{
+  padding: 20px;
+  background-color: #f7f7f7;
+}
+
+.empty-list{
+  list-style: none;
+}
